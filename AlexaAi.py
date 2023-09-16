@@ -19,10 +19,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-SESSION_NAME = getenv("SESSION_NAME", None)
-MONGO_URL = getenv("MONGO_URL", None)
+API_ID = int(getenv("API_ID", "23801870"))
+API_HASH = getenv("9645cfafdfc9be9a7a46fb4874992cf6")
+SESSION_NAME = getenv("BQCgTrVGJx3YmKwLdmNwWUVpQjTe81eroWUWj6PSHP7fFtJzOM6YNTepZAbz6Fao-t4S1VwVD-rj23eJ3DHpFAjF1zO-bzGWUdAlUG7jnvyjQ_Ttp31OJRQXkQrnUKvmLcd3MYXsT-1xE8QxsuKT7dAoAFQ3cSkeYS7li0Uzpz5vleNa-syGTlsy7us7XNTMKhL0c-qD3ALmjN_UyU36JkPRfttvtFQVGM3LowgV-R33sQdSrQ5wcIokLZGA6X6eNMTKSOWlh7fF4mEKhm2bcyWsNUlm-GOqqwUoWxDr2nazCoPmE0X1R2iu6XkEqqPFJl8-IQeeKeSKni_g7jkieYLvAAAAAU8BaKIA", None)
+MONGO_URL = getenv("mongodb+srv://shivamsh:shivamsh@cluster0.f9ge884.mongodb.net/?retryWrites=true&w=majority", None)
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 
